@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HB Santos | Soluções em Segurança</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <a class="brand" href="#home">
+        <img src="../../sistema/assets/logo-hb-santos.png" alt="HB Santos">
+        <strong>HB Santos</strong>
+      </a>
+      <button class="menu-toggle" type="button" aria-controls="main-menu" aria-expanded="false" aria-label="Abrir menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav id="main-menu" class="main-menu" aria-label="Menu principal">
+        <a href="#home">Home</a>
+        <a href="#institucional">Institucional</a>
+        <a href="#solucoes">Soluções</a>
+        <a href="#galeria">Galeria</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="intro" id="home">
+        <div class="panel">
+          <p>Vendas e instalação</p>
+          <h1>CFTV, interfone e manutenção em geral.</h1>
+          <a href="#contato">Pedir atendimento</a>
+        </div>
+        <img src="../../sistema/assets/logo-hb-santos.png" alt="">
+      </section>
+
+      <section class="split" id="institucional">
+        <div>
+          <p class="tag">Institucional</p>
+          <h2>Serviço técnico com foco em proteção, organização e funcionamento.</h2>
+        </div>
+        <p>A HB Santos atende clientes em São Paulo com soluções de segurança eletrônica para quem precisa instalar, revisar ou modernizar sistemas de câmeras, interfones e acesso.</p>
+      </section>
+
+      <section class="solutions" id="solucoes">
+        <p class="tag">Soluções</p>
+        <h2>Atendimento para diferentes necessidades</h2>
+        <div class="cards">
+          <article>
+            <span>Câmeras</span>
+            <h3>Sistema de CFTV</h3>
+            <p>Monitoramento com câmeras digitais e analógicas para ambientes internos e externos.</p>
+          </article>
+          <article>
+            <span>Comunicação</span>
+            <h3>Interfone</h3>
+            <p>Instalação e manutenção de interfones para facilitar o controle de entrada.</p>
+          </article>
+          <article>
+            <span>Acesso</span>
+            <h3>Controle seguro</h3>
+            <p>Leitores, fechaduras e dispositivos para restringir e organizar acessos.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="gallery" id="galeria">
+        <div class="section-head">
+          <p class="tag">Galeria</p>
+          <h2>Fotos de serviços e instalações</h2>
+        </div>
+        <div class="gallery-grid">
+          <button class="gallery-item" type="button" data-full="../../sistema/assets/logo-hb-santos.png" data-title="Instalação de CFTV">
+            <img src="../../sistema/assets/logo-hb-santos.png" alt="Instalação de CFTV">
+            <span>Instalação de CFTV</span>
+          </button>
+          <button class="gallery-item" type="button" data-full="../../sistema/assets/logo-hb-santos.png" data-title="Câmeras e monitoramento">
+            <img src="../../sistema/assets/logo-hb-santos.png" alt="Câmeras e monitoramento">
+            <span>Câmeras e monitoramento</span>
+          </button>
+          <button class="gallery-item" type="button" data-full="../../sistema/assets/logo-hb-santos.png" data-title="Interfone e acesso">
+            <img src="../../sistema/assets/logo-hb-santos.png" alt="Interfone e acesso">
+            <span>Interfone e acesso</span>
+          </button>
+          <button class="gallery-item" type="button" data-full="../../sistema/assets/logo-hb-santos.png" data-title="Manutenção e revisão">
+            <img src="../../sistema/assets/logo-hb-santos.png" alt="Manutenção e revisão">
+            <span>Manutenção e revisão</span>
+          </button>
+          <button class="gallery-item" type="button" data-full="../../sistema/assets/logo-hb-santos.png" data-title="Organização de pontos">
+            <img src="../../sistema/assets/logo-hb-santos.png" alt="Organização de pontos">
+            <span>Organização de pontos</span>
+          </button>
+          <button class="gallery-item" type="button" data-full="../../sistema/assets/logo-hb-santos.png" data-title="Atendimento técnico">
+            <img src="../../sistema/assets/logo-hb-santos.png" alt="Atendimento técnico">
+            <span>Atendimento técnico</span>
+          </button>
+        </div>
+      </section>
+
+      <section class="contact" id="contato">
+        <div>
+          <p class="tag">Contato</p>
+          <h2>Solicite um orçamento</h2>
+        </div>
+        <form id="whatsapp-form">
+          <input id="contact-name" type="text" placeholder="Nome" autocomplete="name">
+          <input id="contact-phone" type="tel" placeholder="Telefone" autocomplete="tel">
+          <textarea id="contact-message" rows="4" placeholder="Mensagem"></textarea>
+          <button type="submit">Enviar pelo WhatsApp</button>
+        </form>
+        <address>
+          Rua Satélite Japetus, 50 - Casa Grande - São Paulo<br>
+          Hugo: (11) 97012-4349<br>
+          Weldson: (11) 99644-3337<br>
+          www.hbsantos.com.br
+        </address>
+      </section>
+    </main>
+
+    <div class="lightbox" id="lightbox" hidden>
+      <button class="lightbox-close" type="button" aria-label="Fechar galeria">×</button>
+      <button class="lightbox-nav lightbox-prev" type="button" aria-label="Foto anterior">‹</button>
+      <figure>
+        <img id="lightbox-image" src="" alt="">
+        <figcaption id="lightbox-caption"></figcaption>
+      </figure>
+      <button class="lightbox-nav lightbox-next" type="button" aria-label="Próxima foto">›</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
